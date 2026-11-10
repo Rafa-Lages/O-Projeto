@@ -8,7 +8,7 @@ Responda sempre em **português do Brasil**.
 ## Premissas (não mudar sem conversar com o Rafael)
 - **Custo zero** no MVP. Antes de propor qualquer serviço, confirme que há plano gratuito.
 - **Canal:** WhatsApp Cloud API oficial da Meta. Só responder dentro da janela de 24h aberta pelo usuário. Não enviar templates (são pagos).
-- **Execução:** Supabase (Edge Functions em Deno/TypeScript + Postgres).
+- **Execução:** Supabase (Edge Functions em Deno/TypeScript + Postgres). Projeto `o-projeto`, ref `uezogedvjgwjebxwfjbm`.
 - **Financeiro:** Google Sheets. **Agenda:** Google Calendar.
 - **Lembretes:** tabela `lembretes` no Supabase, exibida num artefato do claude.ai (não usamos Notion).
 

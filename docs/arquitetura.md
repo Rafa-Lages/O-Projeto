@@ -12,9 +12,14 @@
 ## Fluxo
 WhatsApp → webhook → roteador (tabela `comandos`) → módulo do irmão → Sheets / Calendar / `lembretes` → resposta no WhatsApp.
 
+## Supabase
+- Projeto: `o-projeto` (ref `uezogedvjgwjebxwfjbm`), região São Paulo (sa-east-1), plano free.
+- Para liberar a vaga, o projeto `eventfoto` foi pausado em 10/11/2026 (restaurável com um clique até 08/02/2027).
+- RLS ligado em todas as tabelas, sem políticas públicas: só Edge Functions (service role) acessam.
+
 ## Roteiro do MVP
 1. [x] Repositório e CLAUDE.md
-2. [ ] Projeto Supabase e tabelas (`comandos`, `mensagens`, `lembretes`)
+2. [x] Projeto Supabase e tabelas (`comandos`, `mensagens`, `lembretes`)
 3. [ ] App da Meta e número de teste do WhatsApp
 4. [ ] Webhook + roteador respondendo "eco"
 5. [ ] Comando PR gravando na planilha
@@ -22,5 +27,4 @@ WhatsApp → webhook → roteador (tabela `comandos`) → módulo do irmão → 
 7. [ ] Comando LB + painel de lembretes
 
 ## Pendências
-- Projeto Supabase: o free permite 2 ativos e já existem 2. Pausar um ou reaproveitar.
 - Interpretação das mensagens: formato fixo ou IA gratuita.
